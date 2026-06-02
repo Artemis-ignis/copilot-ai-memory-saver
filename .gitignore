@@ -1,0 +1,26 @@
+# Logs and runtime state
+*.log
+*.tmp
+*.bak
+*.old
+*.csv
+*.pid
+
+# Local runtime folder
+runtime/
+artifacts/
+
+# Personal environment files
+.env
+.env.*
+*.local.ps1
+*.local.ahk
+
+# IDE and OS noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Python cache if benchmark helpers are added later
+__pycache__/
