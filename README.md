@@ -13,6 +13,16 @@ This is for people who want to keep `Win + Q / Click to Do`, but do **not** want
 
 It does **not** delete `WindowsWorkload.*` packages, patch `System32`, modify `WindowsApps`, or disable Windows Search.
 
+## Security / Trust
+
+- Requires **Administrator PowerShell** for install and uninstall
+- Controls a Windows service and scheduled tasks on the local machine
+- Does **not** remove system packages or patch system binaries
+- Does **not** collect telemetry or ship embedded secrets
+- Should be used carefully on work or school managed devices
+
+Security notes and disclosure guidance: [SECURITY.md](SECURITY.md)
+
 ## At a Glance
 
 - Keeps `Win + Q` working
@@ -196,7 +206,8 @@ Because Click to Do itself can be useful. The problem is that Windows AI workloa
 - Does not try to kill unrelated AutoHotkey scripts on your machine
 - Targets only the known Click to Do / Windows AI Fabric process chain and the launcher installed by this project
 
-Full notes: [docs/safety.md](docs/safety.md)
+Full notes: [docs/safety.md](docs/safety.md)  
+Security policy: [SECURITY.md](SECURITY.md)
 
 ## Troubleshooting
 

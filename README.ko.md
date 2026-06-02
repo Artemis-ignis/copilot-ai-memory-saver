@@ -11,6 +11,16 @@ Copilot AI Memory Saver는 Windows 11에서 `Win + Q / Click to Do / 수행하�
 
 이 저장소는 `WindowsWorkload.*` 패키지를 삭제하지 않고, `System32`나 `WindowsApps`를 수정하지 않으며, Windows Search를 끄지 않습니다. 목표는 기능 삭제가 아니라 **온디맨드 실행**입니다.
 
+## 보안 / 신뢰
+
+- 설치와 삭제에는 **관리자 권한 PowerShell**이 필요합니다
+- 로컬 PC에서 Windows 서비스와 예약 작업을 제어합니다
+- 시스템 패키지를 삭제하거나 시스템 바이너리를 수정하지 않습니다
+- 텔레메트리를 수집하지 않고, 저장소 안에 비밀값을 넣지 않습니다
+- 회사/학교 관리 PC에서는 주의해서 사용해야 합니다
+
+보안 정책과 신고 안내: [SECURITY.md](SECURITY.md)
+
 ## 한눈에 보기
 
 - `Win + Q`는 그대로 유지
@@ -194,7 +204,8 @@ Click to Do 자체는 유용할 수 있기 때문입니다. 문제는 뒤에서 
 - 사용자 PC의 다른 AutoHotkey 스크립트를 무차별 종료하지 않습니다
 - 이 프로젝트가 설치한 런처와 Click to Do 관련 프로세스만 대상으로 합니다
 
-자세한 설명: [docs/safety.md](docs/safety.md)
+자세한 설명: [docs/safety.md](docs/safety.md)  
+보안 정책: [SECURITY.md](SECURITY.md)
 
 ## 문제 해결
 
