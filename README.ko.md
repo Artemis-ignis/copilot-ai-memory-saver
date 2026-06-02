@@ -21,8 +21,13 @@ Copilot AI Memory Saver는 Windows 11에서 `Win + Q / Click to Do / 수행하�
 
 ## 스크린샷
 
-![정리 전 작업 관리자](docs/screenshots/before-task-manager.png)
-![정리 후 작업 관리자](docs/screenshots/after-task-manager.png)
+**정리 전**
+
+![정리 전 작업 관리자](docs/screenshots/after-task-manager.png)
+
+**정리 후**
+
+![정리 후 작업 관리자](docs/screenshots/before-task-manager.png)
 
 ## 빠른 설치
 

@@ -23,8 +23,13 @@ It does **not** delete `WindowsWorkload.*` packages, patch `System32`, modify `W
 
 ## Screenshots
 
-![Before: Task Manager memory usage](docs/screenshots/before-task-manager.png)
-![After: Task Manager memory usage](docs/screenshots/after-task-manager.png)
+**Before cleanup**
+
+![Before: Task Manager memory usage](docs/screenshots/after-task-manager.png)
+
+**After cleanup**
+
+![After: Task Manager memory usage](docs/screenshots/before-task-manager.png)
 
 ## Quick Start
 
