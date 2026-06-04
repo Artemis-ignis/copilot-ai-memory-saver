@@ -1,4 +1,14 @@
-# Copilot AI Memory Saver
+﻿# Copilot AI Memory Saver
+
+<!-- ARTEMIS-IGNIS-BRANDING:START -->
+<p align="center">
+  <img src="docs/assets/artemis-ignis-banner.png" alt="Artemis-Ignis banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="docs/assets/artemis-ignis-emblem.png" alt="Artemis-Ignis emblem" width="320" />
+</p>
+<!-- ARTEMIS-IGNIS-BRANDING:END -->
 
 > Keep Win+Q. Stop Copilot AI from eating your RAM.
 
@@ -259,3 +269,4 @@ Keep Win+Q / Click to Do, but stop Windows AI Fabric, WorkloadsSessionHost, AIXH
 ## Korean Readme
 
 Korean documentation: [README.ko.md](README.ko.md)
+
